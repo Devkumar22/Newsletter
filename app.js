@@ -10,6 +10,8 @@ app.get("/", function(req, res){
    res.sendFile(__dirname + "/sign-up.html");
 });
 
+//thus is a commt
+
 app.listen(3000 , function(){
    console.log("server is running on port 3000"); 
 });
